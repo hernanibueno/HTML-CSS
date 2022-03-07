@@ -1,0 +1,19 @@
+@charset "UTF-8"; 
+
+*{
+   <!-- height:100%;-->
+}
+body{
+        background-image: linear-gradient(180deg, rgb(50, 25, 99), rgb(61, 77, 75));
+    background-image: fixed;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
