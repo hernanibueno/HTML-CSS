@@ -1,0 +1,74 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: gray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 30px;
+    font-variant: small-caps;
+    font-family: sans-serif;
+    font-size: 10vw;
+}
+
+header > p{
+    padding-bottom: 30px;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    text-align: center;
+    font-size: 5vw;
+}
+
+section > p{
+    font-family: 'Cookie', cursive;
+}
+
+section.normal{
+    background-color: white;
+}
+
+section.imagem{
+    color: white;
+}
+
+section.imagem > p{
+    margin: 0px 30px;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
