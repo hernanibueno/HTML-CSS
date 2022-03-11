@@ -42,9 +42,11 @@ section{
     line-height: 2em;
     text-align: center;
     font-size: 5vw;
+
 }
 
 section > p{
+    padding-bottom: 1em;
     font-family: 'Cookie', cursive;
 }
 
@@ -54,16 +56,32 @@ section.normal{
 
 section.imagem{
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.603);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
     margin: 0px 30px;
-    background-color: rgba(0, 0, 0, 0.384);
+    background-color: rgba(0, 0, 0, 0.568);
 }
 
 a:hover{
     text-decoration: underline;
 }
+
+section#img1{
+    background-image: url('../imagens/background001.jpg');
+    
+    
+}
+
+section#img2{
+    background-image: url('../imagens/background002.jpg');
+
+}
+
 
 footer{
     background-color: black;
