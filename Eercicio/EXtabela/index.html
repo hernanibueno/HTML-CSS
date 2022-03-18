@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 7px;
+            text-align: center; /*Alinhamento Horizontal*/
+            vertical-align: middle;
+        }
+
+        th{
+            border: 1px solid black;
+            background-color: gray;
+            color: white;
+            padding: 7px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Primeira tabela</h1>
+    <!--
+        Table = tabela
+        table row = linha da tabela - tr
+        table header = cabeçalho da tabela
+        table data = dados da tabela - td
+
+        Tabelas grandes
+
+        table
+            thead
+                tr td th
+            tbody
+                tr td th
+            tfoot
+                tr td th
+
+    -->
+    <table>
+        <thead>
+            <th>Pais</th>
+            <th>Estado</th>
+            <th>População</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Brasil</td>
+                <td>São Paulo</td>
+                <td>456.456</td>
+            </tr>
+
+            <tr>
+                <td>Brasil</td>
+                <td>Minas Gerais</td>
+                <td>345.345</td>
+            </tr>
+
+            <tr>
+                <td>Brasil</td>
+                <td>Rio de Janeiro</td>
+                <td>234.234</td>
+            </tr>
+
+            <tr>
+                <td>Brasil</td>
+                <td>Bahia</td>
+                <td>123.123</td>
+            </tr>
+        </tbody>
+            <th>Brasil</th>
+            <th>Total População</th>
+            <td>152.364.781</td>
+        <tfoot>
+            <tr>
+
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
