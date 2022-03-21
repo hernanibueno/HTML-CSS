@@ -9,10 +9,38 @@
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
-        
+        /*
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+
+        } desse jeito ouuuuuu
+        */
+
+        tbody > tr:nth-child(odd){ /*2n-1*/
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even){ /*2n*/
+            background-color: lightgray;
+        }
+
         table{
             width: 400px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: azure;
         }
 
         td{
@@ -51,6 +79,9 @@
 
     -->
     <table>
+        <caption>
+            Populariones Blasiliones
+        </caption>
         <thead>
             <th>Pais</th>
             <th>Estado</th>
@@ -60,6 +91,28 @@
         <tbody>
             <tr>
                 <td>Brasil</td>
+                <td>São Paulo</td>
+                <td>456.456</td>
+            </tr>
+
+            <tr>
+                <td>Brasil</td>
+                <td>Minas Gerais</td>
+                <td>345.345</td>
+            </tr>
+
+            <tr>
+                <td>Brasil</td>
+                <td>Rio de Janeiro</td>
+                <td>234.234</td>
+            </tr>
+
+            <tr>
+                <td>Brasil</td>
+                <td>Bahia</td>
+                <td>123.123</td>
+            </tr>
+                            <td>Brasil</td>
                 <td>São Paulo</td>
                 <td>456.456</td>
             </tr>
@@ -91,5 +144,16 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatum fugiat, tenetur vero dolore nesciunt ex perspiciatis adipisci officiis ducimus commodi facilis repudiandae voluptatibus accusamus quis eveniet laudantium laboriosam id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo distinctio dolorem laboriosam soluta deleniti voluptatum, nobis delectus quos voluptates, recusandae accusantium. Ab itaque inventore sint minima eius aut molestiae quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sed dolor, recusandae explicabo nulla voluptatibus. A earum, atque quia harum numquam quibusdam velit sequi doloremque ea consectetur nulla, aspernatur debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa temporibus, ullam quos nobis a magni, tempora atque aliquam tenetur nostrum at dicta eum? Quos dignissimos molestias ipsam rerum iste reprehenderit!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatum fugiat, tenetur vero dolore nesciunt ex perspiciatis adipisci officiis ducimus commodi facilis repudiandae voluptatibus accusamus quis eveniet laudantium laboriosam id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo distinctio dolorem laboriosam soluta deleniti voluptatum, nobis delectus quos voluptates, recusandae accusantium. Ab itaque inventore sint minima eius aut molestiae quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sed dolor, recusandae explicabo nulla voluptatibus. A earum, atque quia harum numquam quibusdam velit sequi doloremque ea consectetur nulla, aspernatur debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa temporibus, ullam quos nobis a magni, tempora atque aliquam tenetur nostrum at dicta eum? Quos dignissimos molestias ipsam rerum iste reprehenderit!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatum fugiat, tenetur vero dolore nesciunt ex perspiciatis adipisci officiis ducimus commodi facilis repudiandae voluptatibus accusamus quis eveniet laudantium laboriosam id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo distinctio dolorem laboriosam soluta deleniti voluptatum, nobis delectus quos voluptates, recusandae accusantium. Ab itaque inventore sint minima eius aut molestiae quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sed dolor, recusandae explicabo nulla voluptatibus. A earum, atque quia harum numquam quibusdam velit sequi doloremque ea consectetur nulla, aspernatur debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa temporibus, ullam quos nobis a magni, tempora atque aliquam tenetur nostrum at dicta eum? Quos dignissimos molestias ipsam rerum iste reprehenderit!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatum fugiat, tenetur vero dolore nesciunt ex perspiciatis adipisci officiis ducimus commodi facilis repudiandae voluptatibus accusamus quis eveniet laudantium laboriosam id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo distinctio dolorem laboriosam soluta deleniti voluptatum, nobis delectus quos voluptates, recusandae accusantium. Ab itaque inventore sint minima eius aut molestiae quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sed dolor, recusandae explicabo nulla voluptatibus. A earum, atque quia harum numquam quibusdam velit sequi doloremque ea consectetur nulla, aspernatur debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa temporibus, ullam quos nobis a magni, tempora atque aliquam tenetur nostrum at dicta eum? Quos dignissimos molestias ipsam rerum iste reprehenderit!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatum fugiat, tenetur vero dolore nesciunt ex perspiciatis adipisci officiis ducimus commodi facilis repudiandae voluptatibus accusamus quis eveniet laudantium laboriosam id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo distinctio dolorem laboriosam soluta deleniti voluptatum, nobis delectus quos voluptates, recusandae accusantium. Ab itaque inventore sint minima eius aut molestiae quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sed dolor, recusandae explicabo nulla voluptatibus. A earum, atque quia harum numquam quibusdam velit sequi doloremque ea consectetur nulla, aspernatur debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa temporibus, ullam quos nobis a magni, tempora atque aliquam tenetur nostrum at dicta eum? Quos dignissimos molestias ipsam rerum iste reprehenderit!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatum fugiat, tenetur vero dolore nesciunt ex perspiciatis adipisci officiis ducimus commodi facilis repudiandae voluptatibus accusamus quis eveniet laudantium laboriosam id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo distinctio dolorem laboriosam soluta deleniti voluptatum, nobis delectus quos voluptates, recusandae accusantium. Ab itaque inventore sint minima eius aut molestiae quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sed dolor, recusandae explicabo nulla voluptatibus. A earum, atque quia harum numquam quibusdam velit sequi doloremque ea consectetur nulla, aspernatur debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa temporibus, ullam quos nobis a magni, tempora atque aliquam tenetur nostrum at dicta eum? Quos dignissimos molestias ipsam rerum iste reprehenderit!</p>
 </body>
 </html>
